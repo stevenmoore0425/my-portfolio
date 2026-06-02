@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  background: #f8f8f8;
+  color: #1a1a2e;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-bg {
+  background: linear-gradient(135deg, #1a0e6e 0%, #2d1b9e 50%, #3b28c8 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  padding-bottom: 160px;
+}
