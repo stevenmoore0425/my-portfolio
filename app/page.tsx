@@ -144,15 +144,15 @@ export default function Home() {
       <div style={{ background: '#f0f0f5' }} className="py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-6 sm:px-12">
           <h2 className="text-xl sm:text-2xl font-black text-gray-900 mb-8">Certifications</h2>
-          <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm flex items-center gap-4 max-w-lg">
+          <a href="https://www.credly.com/badges/83178186-efb2-4bc6-9a63-c0c8d4d2109a/public_url" target="_blank" rel="noopener noreferrer" className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm flex items-center gap-4 max-w-lg hover:border-indigo-300 hover:shadow-md transition-all group">
             <div className="w-12 h-12 rounded-2xl flex items-center justify-center shrink-0" style={{ background: '#f0eeff', border: '1px solid #ddd8ff' }}>
               <span className="font-black text-lg" style={{ color: '#2d1b9e' }}>✓</span>
             </div>
             <div>
               <p className="font-bold text-gray-900 text-sm sm:text-base">Google Cloud Professional Cloud Architect</p>
-              <p className="text-gray-400 text-xs sm:text-sm mt-0.5">Verified · Google Cloud</p>
+              <p className="text-xs sm:text-sm mt-0.5 text-gray-400 group-hover:text-indigo-600 transition-colors">Verify on Credly →</p>
             </div>
-          </div>
+          </a>
         </div>
       </div>
 

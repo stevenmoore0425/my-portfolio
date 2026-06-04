@@ -56,9 +56,8 @@ export default function About() {
               outcomes for customers.
             </p>
             <p>
-              I'm currently looking for my next role where I can bring together enterprise sales expertise and
-              cloud architecture knowledge to drive meaningful impact, ideally at a company pushing the boundaries
-              of what cloud infrastructure can do.
+              I'm currently exploring my next opportunity where I can combine a proven sales track record with
+              a technical edge to drive meaningful impact for customers and the business.
             </p>
             <p className="text-gray-400 italic text-sm">
               Outside of work I enjoy exploring LA, staying active, and continuously sharpening my cloud skills
@@ -86,16 +85,16 @@ export default function About() {
         <div className="grid sm:grid-cols-2 gap-8">
           <div>
             <h3 className="text-sm font-black text-gray-900 uppercase tracking-widest mb-4">Certifications</h3>
-            <div className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 flex items-center gap-4">
+            <a href="https://www.credly.com/badges/83178186-efb2-4bc6-9a63-c0c8d4d2109a/public_url" target="_blank" rel="noopener noreferrer" className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 flex items-center gap-4 hover:border-indigo-300 hover:shadow-md transition-all group">
               <div className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
                 style={{ background: '#f0eeff', border: '1px solid #ddd8ff' }}>
                 <span className="font-black" style={{ color: '#2d1b9e' }}>✓</span>
               </div>
               <div>
                 <p className="font-bold text-gray-900 text-sm">Google Cloud Professional Cloud Architect</p>
-                <p className="text-gray-400 text-xs mt-0.5">Verified · Google Cloud</p>
+                <p className="text-xs mt-0.5 text-gray-400 group-hover:text-indigo-600 transition-colors">Verify on Credly →</p>
               </div>
-            </div>
+            </a>
           </div>
 
           <div>
