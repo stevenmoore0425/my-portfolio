@@ -101,12 +101,12 @@ export default function About() {
             <h3 className="text-sm font-black text-gray-900 uppercase tracking-widest mb-4">Education</h3>
             <div className="space-y-3">
               <div className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
-                <p className="font-bold text-gray-900 text-sm">American Academy of Arts</p>
-                <p className="text-gray-400 text-xs mt-1">Bachelor of Arts · 2012-2015</p>
+                <p className="font-bold text-gray-900 text-sm">Santa Monica College</p>
+                <p className="text-gray-400 text-xs mt-1">Business Administration · 2015-2017</p>
               </div>
               <div className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
-                <p className="font-bold text-gray-900 text-sm">Santa Monica College</p>
-                <p className="text-gray-400 text-xs mt-1">Associate, Business Administration · 2015-2017</p>
+                <p className="font-bold text-gray-900 text-sm">American Academy of Arts</p>
+                <p className="text-gray-400 text-xs mt-1">Dramatic Arts · 2012-2015</p>
               </div>
             </div>
           </div>
