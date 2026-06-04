@@ -6,7 +6,7 @@ export default function About() {
 
       {/* Hero with diagonal cut */}
       <div className="hero-bg">
-        <nav className="relative z-10 w-full px-12 py-5 flex justify-between items-center">
+        <nav className="relative z-10 max-w-7xl mx-auto px-12 py-5 flex justify-between items-center">
           <a href="/" className="font-black text-xl tracking-tight">
             <span className="text-white">Steven </span>
             <span style={{ color: 'rgba(180,170,255,0.75)' }}>Moore</span>
@@ -38,15 +38,15 @@ export default function About() {
       </div>
 
       {/* White body */}
-      <div className="max-w-5xl mx-auto px-12 pt-24 pb-20">
+      <div className="max-w-7xl mx-auto px-12 pt-24 pb-20">
         <div className="max-w-2xl mb-12">
           <h2 className="text-2xl font-black text-gray-900 mb-6">About</h2>
           <div className="space-y-5 text-gray-500 leading-relaxed">
             <p>
               I'm Steven Moore, a Sr Account Manager and Enterprise Account Executive with a Google Cloud
               Professional Cloud Architect certification and 8+ years of experience helping companies grow
-              revenue, adopt technology, and solve complex business problems. Currently managing a $3M book
-              of business at Oracle NetSuite, and previously drove account growth and expansion at FusionZone.
+              revenue, adopt technology, and solve complex business problems. Currently managing a $27M book
+              of business at Oracle NetSuite, and previously drove account growth and expansion at Uber.
               I've consistently ranked at the top of my teams, earning Presidents Club multiple times.
             </p>
             <p>
